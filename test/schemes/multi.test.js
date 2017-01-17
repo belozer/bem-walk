@@ -33,7 +33,6 @@ test('should support several schemes', t => {
 
     return toArray(walk(['flat.blocks', 'nested.blocks'], options))
         .then(files => {
-            console.log(files);
             const file1 = files[0];
             const file2 = files[1];
 
